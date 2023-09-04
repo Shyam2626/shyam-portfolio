@@ -16,6 +16,7 @@ import p11 from "../../Assets/Projects/p11.png";
 import p12 from "../../Assets/Projects/p12.png";
 import p13 from "../../Assets/Projects/p13.png";
 import p14 from "../../Assets/Projects/p14.png";
+import p15 from "../../Assets/Projects/p15.png";
 
 
 function Projects() {
@@ -38,6 +39,7 @@ function Projects() {
               title="Blog APP "
               description="Created a dynamic blog application using Bootstrap for a sleek UI. Utilize Node.js and Express to establish the backend, allowing users to store, view, and delete their blogs. Employ EJS for seamless rendering of blog content. Enhance data management using MongoDB for efficient storage and retrieval of user-generated blog posts."
               ghLink="https://github.com/Shyam2626/BlogApp"
+              demoLink="https://shyams-blogapp.onrender.com/"
             />
           </Col>
 
@@ -47,7 +49,19 @@ function Projects() {
               isBlog={false}
               title="Covid-API"
               description="Crafted a COVID-19 API utilizing the dynamic quartet of MongoDB, Node.js, Express, and EJS. Users input a country's name, triggering the API to retrieve and showcase vital pandemic statistics: total cases, deaths, and recoveries. Leveraging Express for routing and middleware, Node.js for backend logic, and EJS for dynamic rendering, the MongoDB database ensures seamless data storage and retrieval, delivering users real-time insights into the impact of COVID-19 across different countries."
-              // ghLink="https://github.com/Shyam2626/BlogApp"
+               ghLink="https://github.com/Shyam2626/covidAPI"
+               demoLink="https://covidapi-aucv.onrender.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={p15}
+              isBlog={false}
+              title="ToDo-List"
+              description="Discover the power of our To-Do List Application, crafted using Node.js, Express, MongoDB, and EJS. This intuitive tool simplifies task management with the ability to effortlessly add and delete tasks, helping you stay organized and in control of your daily agenda. Experience a seamless, efficient way to tackle your to-do list."
+               ghLink="https://github.com/Shyam2626/Todo-App"
+               demoLink="https://todo-app-7891.onrender.com/"
             />
           </Col>
 
