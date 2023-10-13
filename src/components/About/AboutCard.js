@@ -13,14 +13,20 @@ function AboutCard() {
             <br /> I am a third year student pursuing B.TECH
             in INFORMATION TECHNOLOGY at ST. Joseph's Institute of Technology
             <br />
-            Apart from coding, some other activities that I love to do!
+            These are my achievements
           </p>
           <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
+          <li className="about-activity">
+              <ImPointRight /> Top 4/120 in SKILL-A-THON in Hindusthan University
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> 1st in Coding Club in SJIT
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> 2nd in Coding Event in Saveetha College Of Engineering
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> 1st in Technical Quiz in MNM College Of Engineering
             </li>
           </ul>
 
